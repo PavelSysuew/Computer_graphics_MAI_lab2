@@ -1,0 +1,30 @@
+# Сборка
+build/
+build-*/
+out/
+compile_commands.json
+
+# Скомпилированные шейдеры (собираются из исходников при сборке)
+shaders/*.spv
+
+# Настройки окна ImGui, создаются при запуске
+imgui.ini
+
+# Материалы курса и заметки (не код)
+docs/
+
+# Claude Code
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Редакторы и IDE
+.vscode/
+.idea/
+.cache/
+*.swp
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
